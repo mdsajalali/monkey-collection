@@ -1,0 +1,202 @@
+/* 1280px */
+@media(max-width: 80em) {
+	html {
+	  	font-size: 56.25%;
+	}
+
+	.nav-container {
+		padding: 0 5rem;
+	}
+
+	.hero-container {
+		padding: 8rem 5rem;
+	}
+
+	.hero-img img {
+		bottom: -288px;
+	}
+
+	.launchDay-container {
+		padding: 6.5rem 3rem 5rem;
+	}
+
+	.launchDay-container .launchDay-box {
+		display: inline-block;
+	}
+
+	.launchDay-item {
+		margin-bottom: 3rem;
+	}
+
+	.launchDay-item-5 {
+		display: none;
+	}
+
+	.newsletter-container {
+		padding: 0rem 5rem;
+	}
+
+	.ntfly-by-pxsquad-container {
+		padding: 0rem 5rem;
+	}
+
+	.communityHype-container {
+		padding: 5rem;
+	}
+
+	.summer-collection-container {
+		padding: 0 5rem;
+	}
+
+	.newFox-container {
+		padding: 0 5rem;
+	}
+
+	.exploreCollections-container {
+		padding: 0 5rem;
+	}
+
+	.footer-container {
+		padding: 6.5rem 5rem;
+	}
+}
+
+/* 1024px */
+@media (max-width: 64em) {
+	html {
+	  font-size: 50%;
+	}
+
+	.nav-container ul {
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 100%;
+		padding: 15rem 0;
+		background-color: #0a0a0a;
+		text-align: center;
+		z-index: 99;
+	}
+
+	.nav-container ul li {
+		padding-bottom: 5rem;
+	}
+	
+	.nav-container ul li a {
+		font-size: 2.2rem;
+	}
+
+	.nav-hamburger {
+		display: block;
+		margin-left: 2rem;
+	}
+
+	.nav-close {
+		position: fixed;
+		top: 45px;
+    	right: 41px;
+		z-index: 999;
+		display: none;
+	}
+
+	.hero-img img {
+		bottom: -255px;
+	}
+
+	.exploreCollections-content {
+		display: grid;
+		grid-template-columns: repeat(2, 2fr);
+	}
+
+	.footer-box {
+		display: grid;
+		grid-template-columns: repeat(2, 2fr);
+		gap: 5rem;
+	}
+}
+
+/* 768px */
+@media (max-width: 48em) {
+	.hero-img img {
+		display: none;
+	}
+
+	.communityHype-content {
+		grid-template-columns: repeat(2, 3fr) !important;
+	}
+
+	.summer-collection-content {
+		display: grid;
+		grid-template-columns: repeat(2, 2fr);
+	}
+}
+
+/* 640px */
+@media (max-width: 40em) {
+	.searchCart-box a {
+		display: none;
+	}
+
+	.exploreCollections-content {
+		display: block;
+	}
+
+	.exploreCollections-box {
+		margin-bottom: 2rem;
+	}
+
+	.footer-container {
+		padding: 6.5rem 5rem 0 5rem;
+	}
+
+	.footer-box {
+		display: block;
+		padding-bottom: 0;
+	}
+
+	.footer-item {
+		padding-bottom: 5rem;
+	}
+
+	.footer-copyright {
+		display: block;
+		padding-bottom: 5rem;
+		text-align: center;
+	}
+
+	.footer-copyright h3 {
+		padding-bottom: 3rem;
+	}
+
+	.footer-copyright ul {
+		justify-content: center;
+	}
+}
+
+/* 544px */
+@media (max-width: 34em) {
+	.newsletter-box h3 {
+		letter-spacing: 2px;
+	}
+
+	.ntfly-by-pxsquad-box h3 {
+		letter-spacing: 2px;
+	}
+
+	.communityHype-content {
+		grid-template-columns: repeat(1, 6fr) !important;
+	}
+
+	.summer-collection-box-priceBtn {
+		display: block;
+		text-align: center;
+	}
+
+	.summer-collection-box-priceBtn p {
+		padding-bottom: 2rem;
+	}
+}
+  
+  
